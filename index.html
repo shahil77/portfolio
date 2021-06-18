@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">portfolio</a>
+        <div class="toggle"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+    </header>
+ <section class="banner">
+     <div class="textBx">
+         <h2>Hello, I'm<br><span> Shahil Ibrahim.</span></h2>
+         <h3> I'm a Front End Web Developer.</h3>
+         <a href="#" class="btn">About Me</a>
+     </div>
+ </section>
+ <section class="about" >
+     <div class="heading">
+         <h2>About Me</h2>
+     </div>
+     <div class="content">
+        <div class="contentBx w50">
+            <h3> I'm a Front End Web Developer.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue eget arcu dictum varius duis at consectetur lorem. Turpis tincidunt id aliquet risus feugiat in ante metus. Lectus proin nibh nisl condimentum id venenatis a.<br><br> Ut tortor pretium viverra suspendisse potenti. Elit at imperdiet dui accumsan sit amet nulla. Feugiat in ante metus dictum at tempor commodo ullamcorper. Libero nunc consequat interdum varius sit amet mattis. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Aliquam etiam erat velit scelerisque in dictum non consectetur. Lorem dolor sed viverra ipsum nunc aliquet. Maecenas sed enim ut sem viverra aliquet eget sit. Nisl purus in mollis nunc sed. Ultrices neque ornare aenean euismod. Vitae tortor condimentum lacinia quis vel eros donec ac. Feugiat in ante metus dictum at tempor. Tincidunt praesent semper feugiat nibh. Cursus metus aliquam eleifend mi in nulla.</p> 
+
+     </div>
+     <div class="w50">
+         <img src="./image/img1.jpg" class="img">
+     </div>
+ </section>
+    <script type="text/javascript">
+    window.addEventListener('scroll',function(){
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky',window.scrollY > 0 );})</script>
+</body>
+</html>
